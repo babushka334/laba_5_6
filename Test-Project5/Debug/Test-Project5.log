@@ -1,0 +1,38 @@
+﻿  Player.cpp
+C:\Users\User\source\repos\Test-Project5\Test-Project5\Player.cpp(180,12): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+  Source.cpp
+C:\Users\User\source\repos\Test-Project5\Test-Project5\Source.cpp(16,10): warning C4101: ob: неиспользованная локальная переменная
+C:\Users\User\source\repos\Test-Project5\Test-Project5\Algoritms.h(96,31): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+C:\Users\User\source\repos\Test-Project5\Test-Project5\Algoritms.h(60): message : во время компиляции функции-члена класс шаблон "void Algoritm<Player>::quick_sort(stack<Player> *,iter<Player> *,iter<Player> *,bool (__cdecl *)(T,T))"
+          with
+          [
+              T=Player
+          ]
+C:\Users\User\source\repos\Test-Project5\Test-Project5\Source.cpp(87): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Algoritm<Player>::quick_sort(stack<Player> *,iter<Player> *,iter<Player> *,bool (__cdecl *)(T,T))"
+          with
+          [
+              T=Player
+          ]
+C:\Users\User\source\repos\Test-Project5\Test-Project5\Source.cpp(17): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Algoritm<Player>"
+C:\Users\User\source\repos\Test-Project5\Test-Project5\IteratorOut.h(153,1): error C2679: бинарный "==": не найден оператор, принимающий правый операнд типа "node<T>" (или приемлемое преобразование отсутствует)
+          with
+          [
+              T=Player
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\guiddef.h(192,15): message : может быть "bool operator ==(const GUID &,const GUID &)"
+C:\Users\User\source\repos\Test-Project5\Test-Project5\IteratorOut.h(153,1): message : или       "встроенный оператор C++==(node<T> *, node<T> *)"
+          with
+          [
+              T=Player
+          ]
+C:\Users\User\source\repos\Test-Project5\Test-Project5\IteratorOut.h(153,1): message : при попытке сопоставить список аргументов "(node<T> *, node<T>)"
+          with
+          [
+              T=Player
+          ]
+C:\Users\User\source\repos\Test-Project5\Test-Project5\IteratorOut.h(144): message : во время компиляции функции-члена класс шаблон "bool iter<Player>::operator <=(iter<Player> *)"
+C:\Users\User\source\repos\Test-Project5\Test-Project5\Algoritms.h(76): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool iter<Player>::operator <=(iter<Player> *)"
+C:\Users\User\source\repos\Test-Project5\Test-Project5\IteratorOut.h(37): message : во время компиляции функции-члена класс шаблон "iter<Player>::iter(stack<Player> *)"
+C:\Users\User\source\repos\Test-Project5\Test-Project5\Source.cpp(13): message : выполняется компиляция ссылки на экземпляр шаблон функции "iter<Player>::iter(stack<Player> *)"
+C:\Users\User\source\repos\Test-Project5\Test-Project5\Source.cpp(13): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "iter<Player>"
+  Создание кода...
